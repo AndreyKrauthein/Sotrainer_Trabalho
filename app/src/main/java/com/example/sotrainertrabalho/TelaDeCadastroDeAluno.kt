@@ -1,12 +1,16 @@
 package com.example.sotrainertrabalho
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
+import com.example.sotrainertrabalho.database.AlunosDatabase
+import com.example.sotrainertrabalho.database.salvarAlunos
 import com.example.sotrainertrabalho.model.Aluno
 
-class TelaDeCadastroDeAluno: AppCompatActivity(){
+class TelaDeCadastroDeAluno: AppCompatActivity() {
     private lateinit var editNomeCompleto: EditText
     private lateinit var editSenha: EditText
     private lateinit var editSegunda: EditText
@@ -16,11 +20,13 @@ class TelaDeCadastroDeAluno: AppCompatActivity(){
     private lateinit var editSexta: EditText
     private lateinit var editSabado: EditText
 
+    private lateinit var database: AlunosDatabase
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela_de_cadastro_de_aluno)
 
-        editNomeCompleto = findViewById<EditText>(R.id.aluno)
+        editNomeCompleto = findViewById<EditText>(R.id.nome_completo)
         editSenha = findViewById<EditText>(R.id.senha)
         editSegunda = findViewById<EditText>(R.id.segunda)
         editTerça = findViewById<EditText>(R.id.terça)
@@ -28,6 +34,9 @@ class TelaDeCadastroDeAluno: AppCompatActivity(){
         editQuinta = findViewById<EditText>(R.id.quinta)
         editSexta = findViewById<EditText>(R.id.sexta)
         editSabado = findViewById<EditText>(R.id.sabado)
+
+        database = AlunosDatabase(this)
+
         findViewById<Button>(R.id.button_cadastrar_aluno).setOnClickListener {
             salvarAluno()
         }
@@ -44,6 +53,16 @@ class TelaDeCadastroDeAluno: AppCompatActivity(){
             sexta = editSexta.text.toString(),
             sabado = editSabado.text.toString()
         )
+
+        val idAluno = database.salvarAlunos(aluno)
+
+        if (idAluno == -1L) {
+            Toast.makeText(this, "Erro ao inserir", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "Aluno Criado com Sucesso", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, TelaInicialDaAcademiaActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }
