@@ -27,9 +27,9 @@
         android:inputType="textPassword"
         android:hint="Senha"
         android:layout_margin="16dp"
-        app:layout_constraintEnd_toEndOf="@id/aluno"
-        app:layout_constraintStart_toStartOf="@id/aluno"
-        app:layout_constraintTop_toBottomOf="@id/aluno" />
+        app:layout_constraintEnd_toEndOf="@id/nome_completo"
+        app:layout_constraintStart_toStartOf="@id/nome_completo"
+        app:layout_constraintTop_toBottomOf="@id/nome_completo" />
 
     <EditText
         android:id="@+id/segunda"
