@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SotrainerTrabalho">
         <activity
-            android:name=".TelaDeAlunos"
+            android:name=".TelaInicialDoAluno"
             android:exported="false" />
+
         <activity
             android:name=".TelaDeCadastroDeAluno"
             android:exported="false" />
