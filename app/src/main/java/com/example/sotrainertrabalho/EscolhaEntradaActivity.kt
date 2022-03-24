@@ -14,5 +14,10 @@ class EscolhaEntradaActivity : AppCompatActivity() {
             val intent = Intent(this, EscolhaPessoaLoginActivity::class.java)
             startActivity(intent)
         }
+
+        findViewById<Button>(R.id.cadastro).setOnClickListener {
+            val intent = Intent(this, EscolhaPessoaCadastroActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

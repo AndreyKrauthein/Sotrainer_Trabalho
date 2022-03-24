@@ -22,6 +22,10 @@
             android:name=".EscolhaPessoaLoginActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".EscolhaPessoaCadastroActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

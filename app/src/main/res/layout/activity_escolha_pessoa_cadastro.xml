@@ -4,30 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <Button
         android:id="@+id/aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aluno"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="239dp"
+        android:text="ALUNO"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="188dp"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/academia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Academia"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="354dp"
+        android:text="ACADEMIA"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="285dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="465dp"
-        tools:ignore="MissingConstraints" />
+        android:text="Cadastro"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="433dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
