@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ALUNO"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="188dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/academia"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp" />
 
     <Button
         android:id="@+id/academia"
@@ -24,10 +25,11 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cadastro"
+        android:text="Aluno"
         tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="433dp" />
+        tools:layout_editor_absoluteY="433dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

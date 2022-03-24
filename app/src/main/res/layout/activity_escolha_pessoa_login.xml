@@ -23,11 +23,12 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Aluno"
         tools:layout_editor_absoluteX="188dp"
         tools:layout_editor_absoluteY="465dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
