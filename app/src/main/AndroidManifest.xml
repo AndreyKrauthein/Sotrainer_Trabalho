@@ -26,6 +26,14 @@
             android:name=".EscolhaPessoaCadastroActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".CadastroAcademiaActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".CadastroAlunoActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

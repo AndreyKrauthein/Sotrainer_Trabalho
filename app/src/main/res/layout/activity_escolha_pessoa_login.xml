@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/material_dynamic_neutral20">
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Aluno"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.352"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="239dp"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -24,24 +18,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Academia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="354dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="142dp"
-        android:layout_height="96dp"
-        android:text="Escolha Seu Login"
-        android:textColor="@color/teal_700"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069" />
-
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="465dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
