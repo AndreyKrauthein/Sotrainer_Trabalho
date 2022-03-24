@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SotrainerTrabalho">
         <activity
+            android:name=".TelaDeCadastroDeAluno"
+            android:exported="false" />
+        <activity
+            android:name=".TelaInicialDaAcademiaActivity"
+            android:exported="false" />
+        <activity
             android:name=".EscolhaEntradaActivity"
             android:exported="true">
             <intent-filter>
@@ -20,28 +26,22 @@
         </activity>
         <activity
             android:name=".EscolhaPessoaLoginActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".EscolhaPessoaCadastroActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".CadastroAcademiaActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".CadastroAlunoActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".LoginAcademiaActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".LoginAlunoActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

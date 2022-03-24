@@ -10,10 +10,15 @@
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_pessoa_login.xml" value="0.16847826086956522" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_login_academia.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_login_aluno.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_escolha_pessoa_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_login_academia.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_login_aluno.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_tela_de_cadastro_de_aluno.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_tela_inicial_da_academia.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
