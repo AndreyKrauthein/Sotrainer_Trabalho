@@ -7,38 +7,24 @@
     tools:context=".EscolhaEntradaActivity">
 
     <Button
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
+        android:id="@+id/aluno"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cadastro"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/cadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cadastro"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="LOGIN"
+        android:layout_margin="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="177dp"
-        android:layout_height="92dp"
-        android:text="Escolha Sua Escolha Sua Opção"
-        android:textAlignment="center"
-        android:textColor="@color/teal_700"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="50dp"
+    <Button
+        android:id="@+id/academia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO"
+        app:layout_constraintEnd_toEndOf="@id/aluno"
+        app:layout_constraintStart_toStartOf="@id/aluno"
+        app:layout_constraintTop_toBottomOf="@id/aluno"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

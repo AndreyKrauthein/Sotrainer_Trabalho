@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_cadastro_academia.xml" value="0.1" />
+        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_cadastro_academia.xml" value="0.22" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_cadastro_aluno.xml" value="0.1" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_entrada.xml" value="0.1" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_pessoa_cadastro.xml" value="0.1" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_pessoa_login.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_login_academia.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_login_aluno.xml" value="0.1983695652173913" />
       </map>
     </option>
   </component>

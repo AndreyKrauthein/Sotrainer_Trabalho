@@ -11,12 +11,12 @@ class EscolhaPessoaLoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_escolha_pessoa_login)
 
         findViewById<Button>(R.id.academia).setOnClickListener {
-            val intent = Intent(this, CadastroAcademiaActivity::class.java)
+            val intent = Intent(this, LoginAcademiaActivity::class.java)
             startActivity(intent)
         }
 
         findViewById<Button>(R.id.aluno).setOnClickListener {
-            val intent = Intent(this, CadastroAlunoActivity::class.java)
+            val intent = Intent(this, LoginAlunoActivity::class.java)
             startActivity(intent)
         }
     }
