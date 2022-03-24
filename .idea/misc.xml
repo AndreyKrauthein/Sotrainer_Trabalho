@@ -5,16 +5,13 @@
       <map>
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_cadastro_academia.xml" value="0.1" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_cadastro_aluno.xml" value="0.1" />
-        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_entrada.xml" value="0.18" />
-        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_pessoa_cadastro.xml" value="0.16847826086956522" />
+        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_entrada.xml" value="0.1" />
+        <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_pessoa_cadastro.xml" value="0.1" />
         <entry key="..\:/Users/Andrey Lemos/Desktop/SotrainerTrabalho/app/src/main/res/layout/activity_escolha_pessoa_login.xml" value="0.16847826086956522" />
-        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_escolha_entrada.xml" value="0.25" />
-        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_escolha_pessoa_cadastro.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/danip/AndroidStudioProjects/Sotrainer_Trabalho/Sotrainer_Trabalho/app/src/main/res/layout/activity_escolha_pessoa_login.xml" value="0.22826086956521738" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
