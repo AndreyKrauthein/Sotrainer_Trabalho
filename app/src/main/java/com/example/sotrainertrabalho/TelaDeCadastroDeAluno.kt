@@ -17,22 +17,25 @@ class TelaDeCadastroDeAluno: AppCompatActivity(){
 
     private fun configuraBotaoSalvar() {
         val dao = AlunoAcademia()
-        findViewById<Button>(R.id.button_cadastrar_aluno).setOnClickListener {
-            val aluno = criaAluno()
-            dao.create(aluno)
+        findViewById<Button>(R.id.cadastraralunonaacademia).setOnClickListener {
 
-            val intent = Intent(this, TelaInicialDaAcademiaActivity::class.java)
-            startActivity(intent)
+            val aluno = criaAluno()
+
+            dao.create(aluno)
+            finish()
         }
     }
 
     private fun criaAluno(): Aluno {
-        val nome = findViewById<EditText>(R.id.nome_completo).text.toString()
-        val senha = findViewById<EditText>(R.id.senha).text.toString()
+        val nome = findViewById<EditText>(R.id.NomedoAluno).text.toString()
+        val phone = findViewById<EditText>(R.id.SenhadoAluno).text.toString()
+
+
 
         return Aluno(
             nome = nome,
-            senha = senha,
-        )
+            phone = 123,
+
+            )
     }
 }

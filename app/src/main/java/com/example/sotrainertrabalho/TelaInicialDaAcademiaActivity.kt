@@ -13,7 +13,6 @@ class TelaInicialDaAcademiaActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button_cadastrar_aluno).setOnClickListener {
             val intent = Intent(this, TelaDeCadastroDeAluno::class.java)
             startActivity(intent)
-
         }
     }
 }
