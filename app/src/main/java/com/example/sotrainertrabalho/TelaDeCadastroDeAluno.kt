@@ -18,8 +18,7 @@ class TelaDeCadastroDeAluno: AppCompatActivity(){
     private fun configuraBotaoSalvar() {
         val dao = AlunoAcademia()
         findViewById<Button>(R.id.cadastraralunonaacademia).setOnClickListener {
-            val intent = Intent(this, TelaDeAlunos::class.java)
-            startActivity(intent)
+
             val aluno = criaAluno()
 
             dao.create(aluno)
