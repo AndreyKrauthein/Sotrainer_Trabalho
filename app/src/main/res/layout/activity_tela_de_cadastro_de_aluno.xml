@@ -7,42 +7,110 @@
     tools:context=".TelaDeCadastroDeAluno">
 
     <EditText
-        android:id="@+id/NomedoAluno"
+        android:id="@+id/aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/SenhadoAluno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <Button
-        android:id="@+id/cadastraralunonaacademia"
-        android:layout_width="175dp"
-        android:layout_height="56dp"
-        android:text="cadastrar"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text=""
+        android:hint="Nome Completo"
+        android:layout_margin="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/aluno"
+        app:layout_constraintStart_toStartOf="@id/aluno"
+        app:layout_constraintTop_toBottomOf="@id/aluno" />
+
+    <EditText
+        android:id="@+id/segunda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Segunda"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/senha"
+        app:layout_constraintStart_toStartOf="@id/senha"
+        app:layout_constraintTop_toBottomOf="@id/senha" />
+
+    <EditText
+        android:id="@+id/terça"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Terça"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/segunda"
+        app:layout_constraintStart_toStartOf="@id/segunda"
+        app:layout_constraintTop_toBottomOf="@id/segunda" />
+
+    <EditText
+        android:id="@+id/quarta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Quarta"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/terça"
+        app:layout_constraintStart_toStartOf="@id/terça"
+        app:layout_constraintTop_toBottomOf="@id/terça" />
+
+    <EditText
+        android:id="@+id/quinta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Quinta"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/quarta"
+        app:layout_constraintStart_toStartOf="@id/quarta"
+        app:layout_constraintTop_toBottomOf="@id/quarta" />
+
+    <EditText
+        android:id="@+id/sexta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Sexta"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/quinta"
+        app:layout_constraintStart_toStartOf="@id/quinta"
+        app:layout_constraintTop_toBottomOf="@id/quinta" />
+
+    <EditText
+        android:id="@+id/sabado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Sabado"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="@id/sexta"
+        app:layout_constraintStart_toStartOf="@id/sexta"
+        app:layout_constraintTop_toBottomOf="@id/sexta" />
+
+    <Button
+        android:id="@+id/button_cadastrar_aluno"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:text="cadastrar"
+        app:layout_constraintEnd_toEndOf="@id/sabado"
+        app:layout_constraintStart_toStartOf="@id/sabado"
+        app:layout_constraintTop_toBottomOf="@id/sabado" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

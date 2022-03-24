@@ -10,24 +10,13 @@
         android:id="@+id/button_cadastrar_aluno"
         android:layout_width="193dp"
         android:layout_height="50dp"
-        android:text="CadaSTRAR ALUNO"
+        android:text="CADASTRAR ALUNO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="0.944" />
 
-    <Button
-        android:id="@+id/button_adicionar_treino"
-        android:layout_width="193dp"
-        android:layout_height="50dp"
-        android:text="Adicionar Treino"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

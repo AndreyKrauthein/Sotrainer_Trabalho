@@ -15,7 +15,8 @@ class CadastroAcademiaActivity: AppCompatActivity() {
             val cnpj = findViewById<EditText>(R.id.cnpj).text.toString()
             val senha = findViewById<EditText>(R.id.senha).text.toString()
 
-
+            val intent = Intent(this, TelaInicialDaAcademiaActivity::class.java)
+            startActivity(intent)
         }
     }
 }

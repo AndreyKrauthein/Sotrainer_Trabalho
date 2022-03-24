@@ -18,11 +18,11 @@ class ListaDeAlunosAdapter(
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         fun vincula(aluno: Aluno){
-            val nome = itemView.findViewById<TextView>(R.id.NomedoAluno)
+            val nome = itemView.findViewById<TextView>(R.id.nome_completo)
             nome.text = aluno.nome
 
-            var phone = itemView.findViewById<TextView>(R.id.SenhadoAluno)
-            phone.text = aluno.phone.toString()
+            var phone = itemView.findViewById<TextView>(R.id.senha)
+            phone.text = aluno.senha.toString()
 
 
         }

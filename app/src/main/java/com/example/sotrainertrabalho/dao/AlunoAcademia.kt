@@ -6,8 +6,6 @@ import com.example.sotrainertrabalho.model.Aluno as Aluno
 class AlunoAcademia {
     fun create(aluno: Aluno){
         alunosAdapter.add(aluno)
-
-
     }
 
     fun getAll() : List<Aluno> {
